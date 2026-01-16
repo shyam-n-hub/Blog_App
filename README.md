@@ -2,7 +2,8 @@
 
 A modern, responsive blog application built with React, featuring a clean UI with a split-panel layout for browsing and reading blog posts.
 
-![Blog Application Preview](<img width="1711" height="863" alt="image" src="https://github.com/user-attachments/assets/81ae9c47-18dd-43cb-960e-a6a54d85c9c4" />)
+<img width="1676" height="864" alt="image" src="https://github.com/user-attachments/assets/c7202f6c-4e51-4af5-89ed-86275c337f53" />
+
 
 ## 📋 Project Overview
 
@@ -162,3 +163,4 @@ The built files will be in the `dist/` directory.
 ---
 
 **Built with React, TanStack Query, Tailwind CSS, and shadcn/ui**
+
