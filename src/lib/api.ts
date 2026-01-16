@@ -4,32 +4,35 @@ const API_BASE_URL = "http://localhost:3001";
 
 // Mock data for when JSON server is not running (preview mode)
 const mockBlogs: Blog[] = [
-  {
+   {
     id: 1,
-    title: "Future of Fintech",
-    category: ["FINANCE", "TECH"],
-    description: "Exploring how AI and blockchain are reshaping financial services",
-    date: "2026-01-11T09:12:45.120Z",
-    coverImage: "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg",
-    content: "The financial technology sector is undergoing a revolutionary transformation. Artificial intelligence and blockchain technology are at the forefront of this change, fundamentally altering how we think about banking, investments, and financial services.\n\nAI-powered algorithms are now capable of making complex trading decisions in milliseconds, while blockchain technology ensures transparency and security in transactions. Traditional banks are being forced to adapt or risk becoming obsolete.\n\nLooking ahead, we can expect to see even greater integration of these technologies. Decentralized finance (DeFi) platforms are already challenging traditional banking models, offering users unprecedented control over their financial assets.\n\nThe convergence of AI and blockchain will likely lead to more personalized financial services, reduced costs, and greater accessibility for underserved populations around the world."
+    title: "AI in Smart Agriculture",
+    category: ["AGRICULTURE", "AI", "IOT"],
+    description: "How artificial intelligence is transforming modern farming practices",
+    date: "2026-01-15T10:20:30.000Z",
+    coverImage: "https://images.pexels.com/photos/2886937/pexels-photo-2886937.jpeg",
+    content:
+      "Artificial Intelligence is revolutionizing agriculture by enabling data-driven farming decisions. Smart sensors, drones, and AI models work together to monitor crop health, soil conditions, and weather patterns in real time.\n\nFarmers can now predict crop diseases, optimize irrigation, and increase yield while reducing costs. Machine learning models analyze historical and real-time data to provide accurate recommendations.\n\nAI-powered agriculture not only improves productivity but also promotes sustainability. Efficient use of water, fertilizers, and pesticides helps reduce environmental impact.\n\nAs technology advances, AI-driven smart farming will play a crucial role in ensuring food security for a growing global population."
   },
   {
     id: 2,
-    title: "Sustainable Living in 2026",
-    category: ["LIFESTYLE", "ENVIRONMENT"],
-    description: "Practical tips for reducing your carbon footprint in everyday life",
-    date: "2026-01-10T14:30:00.000Z",
+    title: "Full Stack Development Trends",
+    category: ["WEB", "TECH"],
+    description: "Key technologies shaping full stack development in 2026",
+    date: "2026-01-14T15:45:00.000Z",
     coverImage: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg",
-    content: "Sustainable living has become more accessible than ever before. With growing awareness of climate change and environmental degradation, individuals are seeking practical ways to reduce their impact on the planet.\n\nStart with small changes: switch to reusable bags, reduce single-use plastics, and consider your transportation choices. Electric vehicles and public transit are becoming increasingly viable options for daily commutes.\n\nYour diet also plays a significant role. Reducing meat consumption, buying local produce, and minimizing food waste can significantly lower your carbon footprint. Many communities now offer composting programs and farmers' markets.\n\nRemember, sustainability is a journey, not a destination. Every small action contributes to a larger movement toward a healthier planet."
+    content:
+      "Full stack development continues to evolve rapidly with the rise of modern frameworks and cloud services. Technologies like React, Next.js, Node.js, and serverless architectures are becoming industry standards.\n\nDevelopers are focusing more on performance, scalability, and user experience. Tools such as Firebase, AWS, and Docker simplify backend management and deployment.\n\nSecurity and API-first design are also gaining importance as applications become more interconnected.\n\nIn 2026, successful full stack developers are those who can adapt quickly, learn continuously, and build end-to-end solutions efficiently."
   },
   {
     id: 3,
-    title: "The Rise of Remote Work",
-    category: ["BUSINESS", "TECH"],
-    description: "How companies are adapting to the new normal of distributed teams",
-    date: "2026-01-09T08:00:00.000Z",
+    title: "IoT and Smart Cities",
+    category: ["IOT", "SMART CITY"],
+    description: "Building intelligent cities using connected devices and data",
+    date: "2026-01-13T09:10:00.000Z",
     coverImage: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg",
-    content: "The workplace has fundamentally changed. What started as a necessity has evolved into a preferred way of working for millions of professionals worldwide.\n\nCompanies are investing heavily in digital infrastructure to support distributed teams. Collaboration tools, virtual meeting platforms, and project management software have become essential components of modern business operations.\n\nHowever, remote work comes with its challenges. Maintaining company culture, ensuring employee well-being, and fostering innovation require intentional effort and new management strategies.\n\nThe future of work is hybrid. Organizations that successfully blend remote and in-office experiences will attract top talent and maintain competitive advantages in their industries."
+    content:
+      "Smart cities leverage IoT devices to improve urban living. Sensors collect real-time data on traffic, air quality, energy usage, and public infrastructure.\n\nThis data helps city administrators make informed decisions, reduce congestion, and improve public services. Smart lighting, waste management, and surveillance systems enhance efficiency and safety.\n\nCitizen engagement platforms allow people to report issues directly, increasing transparency and accountability.\n\nWith continued innovation, IoT-driven smart cities will become more sustainable, connected, and citizen-friendly."
   }
 ];
 
